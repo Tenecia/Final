@@ -19,5 +19,6 @@ namespace FinalProject.Models
         public string ProjectDescription { get; set; }
         public string Screenshot { get; set; }
         public string GitHub { get; set; }
+        public string Languages { get; set; }
     }
 }
