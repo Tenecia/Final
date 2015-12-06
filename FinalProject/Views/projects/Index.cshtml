@@ -36,7 +36,7 @@
                     @foreach (var item in Model)
                     {
                         <tr>
-                            <td>
+                            <td class="hover">
                                 @Html.DisplayFor(modelItem => item.Name)
                             </td>
                             <td>
@@ -46,7 +46,7 @@
                                 <img src="@Html.DisplayFor(modelItem => item.Screenshot)" height="100" alt="screenshot"/>
                             </td>
                             <td>
-                                <a href="@Html.DisplayFor(modelItem => item.GitHub)" target="_blank">GitHub Link</a>
+                                <a href="@Html.DisplayFor(modelItem => item.GitHub)" target="_blank">@Html.DisplayFor(modelItem => item.GitHub)</a>
                             </td>
                             <td>
                                 @Html.DisplayFor(modelItem => item.Languages)

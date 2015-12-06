@@ -75,15 +75,21 @@ div.row{
    height:200px;
 }
 
-#contact-paragraph
+/*#contact-paragraph
 {
     background-color:#c4d4d4;
     float:left;
     position:relative;
     font-size:large;
-}
+}*/
+
+
 h1{
     font-family:'Palatino Linotype';
+    
+}
+.hover:hover{
+    color:red;
 }
 /*Fade in start*/
 #page-content-wrapper {
